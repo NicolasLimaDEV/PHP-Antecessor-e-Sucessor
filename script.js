@@ -2,11 +2,18 @@ const form = document.getElementById("form");
 const inputNum = document.getElementById("numero");
 const mensagemErro = document.getElementById("erro");
 
-form.addEventListener("submit", function (event) {
+form.addEventListener("submit",(e)=> {
   if (inputNum.value === "") {
-    event.preventDefault(); // impede enviar
+    e.preventDefault();
     mensagemErro.classList.add("active");
   } else {
     mensagemErro.classList.remove("active");
   }
 });
+
+inputNum.addEventListener("input", ()=> {
+   if(inputNum.value != ""){
+      mensagemErro.classList.remove("active")
+   }
+})
+

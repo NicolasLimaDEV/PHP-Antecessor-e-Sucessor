@@ -15,12 +15,12 @@
    ?>
 
    <div class="content-final">
-      <h1>Resultador Final</h1>
+      <h1>Resultado Final</h1>
       <p>Número digitado: <?= $num ?></p>
       <p>Número <span>sucessor</span>: <?= $numACC ?></p>
-      <p>Número <span>antecessor</span> <?= $numDEC ?></p>
+      <p>Número <span>antecessor</span>: <?= $numDEC ?></p>
 
-      <a href="index.php">Voltar</a>
+      <a href="index.php"> < Voltar</a>
    </div>
 
 </body>

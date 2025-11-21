@@ -9,8 +9,8 @@
 <body>
 
    <section>
-      <form id="form" action="cadastro.php" method="get">
-         <h3>Informe um número</h3>
+      <form id="form" action="resultado.php" method="get">
+         <h3>Digite um número</h3>
          <input type="number" name="numero" id="numero">
 
          <p id="erro">Você precisa digitar um número!</p>
