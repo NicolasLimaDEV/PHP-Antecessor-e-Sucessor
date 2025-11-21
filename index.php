@@ -9,15 +9,16 @@
 <body>
 
    <section>
-      <form action="cadastro.php" method="get">
+      <form id="form" action="cadastro.php" method="get">
          <h3>Informe um número</h3>
-         <input type="number" name="numero" id="numero" required>
+         <input type="number" name="numero" id="numero">
 
-         <p id="erro">Você precisa digitar um número</p>
+         <p id="erro">Você precisa digitar um número!</p>
 
          <input class="btn-submit" type="submit" value="Enviar">
       </form>
    </section>
 
+   <script src="script.js"></script>
 </body>
 </html>

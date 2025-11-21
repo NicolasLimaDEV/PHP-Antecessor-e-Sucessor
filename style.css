@@ -92,3 +92,18 @@ section form input:focus {
   color: #34F5C6;
   cursor: pointer;
 }
+
+/* Mensagem Erro Input */
+#erro{
+  display: none;
+}
+
+#erro.active{
+  display: block;
+  color: #84202A;
+  font-weight: 500;
+  background-color: #F8D7DA;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
